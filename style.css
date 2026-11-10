@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.produk-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.produk-card h3 {
+    margin: 0 0 5px 0;
+}
+
+.produk-card p {
+    margin: 0 0 10px 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+#ringkasan {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #eef;
+    border: 1px solid #99f;
+    border-radius: 4px;
+}
